@@ -1,0 +1,3 @@
+crete-qemu-2.3-system-x86_64: Unknown savevm section type 7
+crete-qemu-2.3-system-x86_64: Error -22 while loading VM state
+crete-qemu-2.3-system-x86_64: /home/jbao/crete/crete-dev/front-end/qemu-2.3/runtime-dump/runtime-dump.cpp:1791: void crete_pre_cpu_tb_exec(void*, TranslationBlock*): Assertion `!crete_pre_post_flag' failed.

@@ -1,0 +1,29 @@
+<crete>
+    <mode>developer</mode>
+    <vm>
+      <arch>x86</arch>
+    </vm>
+    <svm>
+        <args>
+            <symbolic>
+              --search=dfs
+              --check-overshift=false
+              --use-cex-cache
+              --use-forked-solver
+              --simplify-sym-indices
+              --max-time=300.
+              --max-instruction-time=5.
+	      --max-memory=2000
+            </symbolic>
+        </args>
+    </svm>
+    <test>
+        <interval>
+            <trace>10000</trace>
+            <!-- <tc>30</tc> -->
+            <!-- <time>900</time> -->
+        </interval>
+    </test>
+</crete>
+
+      <!-- <initial-tc>/home/chenbo/crete/test-crete/image-i386/vm-node/vm/1/bk-hostfile/inputs_kfi_complete.xml_crash_0.bin</initial-tc> -->

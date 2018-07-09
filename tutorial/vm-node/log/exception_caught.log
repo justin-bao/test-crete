@@ -1,0 +1,5 @@
+[2018-06-27 16:18:46]: /home/jbao/crete/crete-dev/lib/cluster/vm_node_fsm.cpp(607): Throw in function void crete::cluster::node::vm::fsm::QemuFSM_::read_vm_pid::operator()(const EVT &, FSM &, SourceState &, TargetState &) [EVT = crete::cluster::node::vm::ev::start, FSM = boost::msm::back::state_machine<crete::cluster::node::vm::fsm::QemuFSM_, boost::parameter::void_, boost::parameter::void_, boost::parameter::void_, boost::parameter::void_>, SourceState = crete::cluster::node::vm::fsm::QemuFSM_::Start, TargetState = crete::cluster::node::vm::fsm::QemuFSM_::ConnectVM]
+Dynamic exception type: boost::exception_detail::clone_impl<crete::Exception>
+std::exception::what: std::exception
+[crete::err::tag_file_missing*] = hostfile/pid
+
