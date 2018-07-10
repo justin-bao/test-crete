@@ -1,15 +1,15 @@
 <crete>
 	<vm>
 		<path>
-                        <x86>/home/crete/crete/crete-build/bin/crete-qemu-2.3-system-i386</x86>
-                        <x64>/home/crete/crete/crete-build/bin/crete-qemu-2.3-system-x86_64</x64>
+                        <x86>/home/crete/crete-build/bin/crete-qemu-2.3-system-i386</x86>
+                        <x64>/home/crete/crete-build/bin/crete-qemu-2.3-system-x86_64</x64>
 		</path>
 		<count>1</count>
 	</vm>
 	<translator>
 		<path>
-                        <x86>/home/crete/crete/crete-build/bin/crete-llvm-translator-qemu-2.3-i386</x86>
-                        <x64>/home/crete/crete/crete-build/bin/crete-llvm-translator-qemu-2.3-x86_64</x64>
+                        <x86>/home/crete/crete-build/bin/crete-llvm-translator-qemu-2.3-i386</x86>
+                        <x64>/home/crete/crete-build/bin/crete-llvm-translator-qemu-2.3-x86_64</x64>
 		</path>
 	</translator>
  	<master>

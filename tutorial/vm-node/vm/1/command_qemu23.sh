@@ -1,5 +1,5 @@
 #!/bin/sh
-SVN_TRUNK='/home/crete/crete/crete-build/bin'
+SVN_TRUNK='/home/crete/crete-build/bin'
 
 # # #
 CRETEPATH=$SVN_TRUNK

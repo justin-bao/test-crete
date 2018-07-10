@@ -1,5 +1,5 @@
 #!/bin/sh
-CRETE_DEV='/home/crete/crete/crete-build/bin'
+CRETE_DEV='/home/crete/crete-build/bin'
 
 CRETEPATH=$CRETE_DEV
 
