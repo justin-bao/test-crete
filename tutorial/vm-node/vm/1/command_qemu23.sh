@@ -1,3 +1,4 @@
+ee
 #!/bin/sh
 SVN_TRUNK='/home/crete/crete-build/bin'
 
@@ -22,7 +23,7 @@ COMPLETE_CMD="-hda $IMG -k en-us -monitor telnet:127.0.0.1:$PORT,server,nowait \
           -netdev user,id=net1 -device virtio-net-pci,netdev=net1\
 	  -append 'console=ttyS0' \
           -initrd rootfs.cpio.gz \
-          -kernel bzImage \
+          -kernel cmdline  \
           -nographic \
           -serial mon:stdio \
           "
