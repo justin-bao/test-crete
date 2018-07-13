@@ -20,9 +20,7 @@ MEM_SIZE='2048'
 COMPLETE_CMD="-hda $IMG -k en-us -monitor telnet:127.0.0.1:$PORT,server,nowait \
           -redir tcp:$SSHPORT::22 -rtc clock=vm \
           -netdev user,id=net1 -device virtio-net-pci,netdev=net1\
-	  -append 'console=ttyS0' \
-          -nographic \
-          -serial mon:stdio \
+	  -curses
           "
 ## ==============================
 echo "$COMPLETE_CMD"
