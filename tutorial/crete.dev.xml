@@ -2,7 +2,7 @@
     <mode>distributed</mode>
     <vm>
       <image>
-        <path>/home/crete/test-crete/tutorial/vm-node/vm/1/crete.img</path>
+        <path>/home/crete/crete-run/tutorial/vm-node/vm/1/crete.img</path>
         <update>false</update>
       </image>
       <arch>x64</arch>

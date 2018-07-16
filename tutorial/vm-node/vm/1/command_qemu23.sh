@@ -7,7 +7,7 @@ echo $CRETEPATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CRETEPATH:/usr/local/lib:$CRETEPATH/boost
 
 #----------------------------
-SSHPORT="20014"
+SSHPORT="10012"
 #----------------------------
 
 #----------------------------
