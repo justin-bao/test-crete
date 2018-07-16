@@ -63,6 +63,7 @@ $ qemu-system-x86_64 -hda crete.img -m 256 -k en-us
 The account set up in this OS has the following credentials:
 
 > Username: __crete__
+>
 > Password: __crete__
 
 From within the guest OS, you can use:
