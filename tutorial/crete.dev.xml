@@ -1,29 +1,38 @@
 <crete>
     <mode>distributed</mode>
     <vm>
+      <image>
+        <path>/home/crete/test-crete/tutorial/vm-node/vm/1/crete.img</path>
+        <update>false</update>
+      </image>
       <arch>x64</arch>
+      <snapshot>test</snapshot>
+      <args>-m 256</args>
     </vm>
     <svm>
         <args>
             <symbolic>
-              --search=dfs
-              --check-overshift=false
-              --use-cex-cache
-              --use-forked-solver
-              --simplify-sym-indices
-              --max-time=300.
-              --max-instruction-time=5.
-	      --max-memory=2000
+                --max-memory=1000
+                --disable-inlining
+                --use-forked-solver
+                --max-sym-array-size=4096
+                --max-instruction-time=5
+                --max-time=150
+                --search=dfs
             </symbolic>
         </args>
     </svm>
     <test>
         <interval>
             <trace>10000</trace>
-            <!-- <tc>30</tc> -->
-            <!-- <time>900</time> -->
+            <tc>10000</tc>
+            <time>900</time>
+            <items>
+              <item>/home/crete/crete-run/tutorial/crete.demo.echo.xml</item>
+            </items>
         </interval>
     </test>
+    <profile>
+        <interval>10</interval>
+    </profile>
 </crete>
-
-      <!-- <initial-tc>/home/chenbo/crete/test-crete/image-i386/vm-node/vm/1/bk-hostfile/inputs_kfi_complete.xml_crash_0.bin</initial-tc> -->

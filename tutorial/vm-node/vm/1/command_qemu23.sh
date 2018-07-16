@@ -15,7 +15,7 @@ IMG='crete.img'
 #----------------------------
 
 PORT='1236'
-MEM_SIZE='2048'
+MEM_SIZE='256'
 
 COMPLETE_CMD="-hda $IMG -k en-us -monitor telnet:127.0.0.1:$PORT,server,nowait \
           -redir tcp:$SSHPORT::22 -rtc clock=vm \
