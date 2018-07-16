@@ -1,5 +1,5 @@
 <crete>
-    <mode>developer</mode>
+    <mode>distributed</mode>
     <vm>
       <arch>x64</arch>
     </vm>
