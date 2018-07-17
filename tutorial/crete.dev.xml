@@ -7,7 +7,13 @@
       </image>
       <arch>x64</arch>
       <snapshot>test</snapshot>
-      <args>-m 256</args>
+      <args>
+	  -hda crete.img -m 256 -k en-us -monitor telnet:127.0.0.1:1236,server,nowait \
+          -redir tcp:20014::22 -rtc clock=vm \
+          -netdev user,id=net1 -device virtio-net-pci,netdev=net1
+	  -nographic
+	  -loadvm test
+      </args>
     </vm>
     <svm>
         <args>
